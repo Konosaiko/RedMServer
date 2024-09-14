@@ -5,12 +5,12 @@ Config = {
 
   -- Status amount rate drop
   EveryTimeStatusDown = 3600, --  3,6 seconds
-  HowAmountThirstWhileRunning = 3, -- Example drop 3 every 3,6 seconds -- Max value 1000
-  HowAmountHungerWhileRunning = 2,
-  HowAmountThirst = 2,
-  HowAmountHunger = 1,
-  HowAmountMetabolismWhileRunning = 4,
-  HowAmountMetabolism = 2,
+  HowAmountThirstWhileRunning = 0, -- Example drop 3 every 3,6 seconds -- Max value 1000
+  HowAmountHungerWhileRunning = 0,
+  HowAmountThirst = 0,
+  HowAmountHunger = 0,
+  HowAmountMetabolismWhileRunning = 0,
+  HowAmountMetabolism = 0,
 
   FirstHungerStatus = 1000, -- 100%
   FirstThirstStatus = 1000, -- 100%
