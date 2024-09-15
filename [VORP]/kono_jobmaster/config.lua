@@ -28,7 +28,7 @@ Config = {
 
             TreatmentPosition = {x = 1367.76, y = -849.54, z = 70.82},
             itemTreated = "apple",
-            treatmentAnimation = "hoeing",
+            treatmentAnimation = "shoveling",
             treatmentAnimationDuration = 2200,
             treatmentNotification = "Vous avez traité un blé.",
         },
