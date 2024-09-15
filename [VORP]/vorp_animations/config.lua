@@ -158,4 +158,22 @@ Config.Animations = {
             bone = 'SKEL_L_Hand'
         }
     },
+    ["shoveling"] = {
+        dict = "amb_work@world_human_shovel_coal_pickup@male_a@wip_exit",
+        name = "wip_exit", 
+        flag = 17,
+        type = 'standard',
+        prop = {
+            model = 'p_shovel02x',
+            coords = {
+                x = 0.0599999, 
+                y = -0.18,
+                z = -0.0699999,
+                xr = 81.0,
+                yr = -46.989,
+                zr = -192.0
+            },
+            bone = 'skel_r_hand'
+        }
+    }
 }
