@@ -40,7 +40,7 @@ Config.DoorRadius = 1.5                 -- Maximum Distance from Door to Operate
 ---------- Admin Configuration (Anyone listed here will be able to create and delete doors!) -----------
 Config.AdminSteamIds = {
     {
-        steamid = 'steam:110000103a1e79f', --insert players steam id
+        steamid = 'steam:110000103a1e79f', -- Kono ID
     },                                     --to add more just copy this table paste and change id
 }
 
