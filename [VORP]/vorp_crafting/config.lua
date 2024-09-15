@@ -45,14 +45,105 @@ Config.Locations = {
         name = 'Blackwater Crafting Station',
         id = 'blackwater',
         Job = 0, -- set to 0 to allow any jobs, or like { "butcher" } to job restriction
-        x = -872.222,
-        y = -1390.924,
+        x = -872.222, 
+        y = -1390.924, 
         z = 43.573,
         Blip = {
             enable = true,
             Hash = 1754365229
         },
-        Categories = 0, -- set to 0 to allow all categories or like {"food"} to restrict
+        Categories = {"items" , "weapons"}, -- set to 0 to allow all categories or like {"food"} to restrict
+    },
+    {
+        name = 'Smithfields Oven',
+        id = 'smithfields',
+        Job = {'smithfields'}, -- set to 0 to allow any jobs, or like { "butcher" } to job restriction
+        x = -308.69, 
+        y = 804.84, 
+        z = 118.01,
+        Blip = {
+            enable = true,
+            Hash = 1754365229
+        },
+        Categories = {"items" , "food"}, -- set to 0 to allow all categories or like {"food"} to restrict
+    },
+    {
+        name = 'BlackwaterSaloon Oven',
+        id = 'blackwatersaloon',
+        Job = {'blackwatersaloon'}, -- set to 0 to allow any jobs, or like { "butcher" } to job restriction {x = -3697.97, y = -2601.49, z = -13.32}
+        x = -817.47, 
+        y = -1317.86, 
+        z = 42.68,
+        Blip = {
+            enable = true,
+            Hash = 1754365229
+        },
+        Categories = {"items" , "food"}, -- set to 0 to allow all categories or like {"food"} to restrict
+    },
+    {
+        name = 'Armadillo Oven',
+        id = 'armdadillosaloon',
+        Job = {'armadillosaloon'}, -- set to 0 to allow any jobs, or like { "butcher" } to job restriction 
+        x = -3698.08, 
+        y = -2601.4,  
+        z = -13.32,
+        Blip = {
+            enable = true,
+            Hash = 1754365229
+        },
+        Categories = {"items" , "food"}, -- set to 0 to allow all categories or like {"food"} to restrict
+    },
+    {
+        name = 'Valentine Gunsmith',
+        id = 'valentinegunsmith',
+        Job = {'valentinegunsmith'}, -- set to 0 to allow any jobs, or like { "butcher" } to job restriction 
+        x = -277.22, 
+        y = 779.08,   
+        z = 119.5,
+        Blip = {
+            enable = true,
+            Hash = 1754365229
+        },
+        Categories = {"items" , "weapons", "meleeweapons"}, -- set to 0 to allow all categories or like {"food"} to restrict
+    },
+    {
+        name = 'Saint-Denis Gunsmith',
+        id = 'saintdenisgunsmith',
+        Job = {'saintdenisgunsmith'}, -- set to 0 to allow any jobs, or like { "butcher" } to job restriction 
+        x = 2709.85,   
+        y = -1286.04,   
+        z = 49.63,
+        Blip = {
+            enable = true,
+            Hash = 1754365229
+        },
+        Categories = {"items" , "weapons", "meleeweapons"}, -- set to 0 to allow all categories or like {"food"} to restrict
+    },
+    {
+        name = 'Rhodes Gunsmith',
+        id = 'rhodesgunsmith',
+        Job = {'rhodesgunsmith'}, -- set to 0 to allow any jobs, or like { "butcher" } to job restriction 
+        x = 1328.15,   
+        y = -1323.1,   
+        z = 77.89,
+        Blip = {
+            enable = true,
+            Hash = 1754365229
+        },
+        Categories = {"items" , "weapons", "meleeweapons"}, -- set to 0 to allow all categories or like {"food"} to restrict
+    },
+    {
+        name = 'Boulangerie',
+        id = 'boulangerie',
+        Job = {'baker'}, -- set to 0 to allow any jobs, or like { "butcher" } to job restriction 
+        x = 1367.69,   
+        y = -841.45,   
+        z = 70.99,
+        Blip = {
+            enable = true,
+            Hash = 1754365229
+        },
+        Categories = {"items" , "food"}, -- set to 0 to allow all categories or like {"food"} to restrict
     }
 }
 
